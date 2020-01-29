@@ -8,12 +8,10 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS.each do |brand|
-      BRANDS.push(brand)
-    
-    
-      
+      BRANDS.push(brand) unless BRANDS.last == BRANDS
+    end
   end
-  binding.pry
+  
   
 
   def cobble
