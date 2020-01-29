@@ -9,9 +9,8 @@ class Shoe
     @brand = brand
     BRANDS.push(brand)
     BRANDS.uniq
-  binding.pry 
   end
-  
+  binding.pry
   
 
   def cobble
