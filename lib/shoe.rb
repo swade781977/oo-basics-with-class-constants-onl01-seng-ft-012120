@@ -7,6 +7,8 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS.each do |array_brand|
+      if @brand == array_brand
+        pass
       
       
         
