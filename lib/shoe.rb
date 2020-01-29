@@ -6,13 +6,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS.each do |array_brand|
-      if @brand == array_brand
-      else
-        BRANDS.push(@BRANDS)
-      end 
-    end
-  end
+    BRANDS << brand
   
   
 
