@@ -9,7 +9,7 @@ class Shoe
     BRANDS.each do |array_brand|
       if @brand == array_brand
       else
-        BRANDS << @BRANDS
+        BRANDS.push(@BRANDS)
       end 
     end
   end
