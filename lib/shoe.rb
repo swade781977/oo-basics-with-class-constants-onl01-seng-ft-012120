@@ -8,11 +8,9 @@ class Shoe
     @brand = brand
     BRANDS.each do |array_brand|
       if @brand == array_brand
-        pass
-      
-      
-        
-      end
+      else
+        BRANDS << @BRANDS
+      end 
     end
   end
   
