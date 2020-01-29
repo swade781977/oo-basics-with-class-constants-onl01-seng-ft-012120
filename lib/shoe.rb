@@ -11,7 +11,7 @@ class Shoe
       BRANDS.push(brand) unless BRANDS.last == BRANDS
     end
   end
-  
+  binding.pry
   
 
   def cobble
